@@ -1,3 +1,8 @@
+/*
+NIM   : D1041241053
+Nama  : Gabriel Santoso
+Program untuk Latihan 1 Pertemuan 3
+ */
 public class LatihDataMahasiswa {
   public static void main(String[] args) {
     String nim = "D1041241053";
