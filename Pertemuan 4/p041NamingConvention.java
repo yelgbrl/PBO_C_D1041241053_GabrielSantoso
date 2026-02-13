@@ -1,3 +1,8 @@
+/*
+NIM   : D1041241053
+Nama  : Gabriel Santoso
+Program untuk p041 NamingConvention Pertemuan 4
+ */
 public class p041NamingConvention {
   public static final double PI = 3.14;
   public static void main(String[] args) {
