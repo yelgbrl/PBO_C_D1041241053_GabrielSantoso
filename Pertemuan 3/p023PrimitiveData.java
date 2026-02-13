@@ -1,5 +1,3 @@
-
-
 public class p023PrimitiveData {
   public static void main(String[] args) {
     

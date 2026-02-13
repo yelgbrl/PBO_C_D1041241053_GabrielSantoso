@@ -1,3 +1,8 @@
+/*
+Nim : D1041241053
+Nama : Gabriel Santoso
+Program Untuk Variable 
+*/
 public class p022WorkingVariable {
   public static void main(String[] args) {
     int angka = 10;
