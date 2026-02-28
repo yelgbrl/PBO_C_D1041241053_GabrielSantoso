@@ -30,17 +30,17 @@ public class p053TernaryOperator {
         // Contoh 3: Nilai maksimum 
         int a = 15; 
         int b = 20; 
-int max = (a > b) ? a : b; 
-System.out.println("=== Nilai Maksimum ==="); 
-System.out.println("Bilangan a: " + a); 
-System.out.println("Bilangan b: " + b); 
-System.out.println("Nilai maksimum: " + max); 
-System.out.println(); 
-// Contoh 4: Inline dalam println 
-int age = 17; 
-System.out.println("=== Status Usia ==="); 
-System.out.println("Usia: " + age); 
-System.out.println("Status: " + ((age >= 18) ? "Dewasa" : 
-"Belum Dewasa")); 
-} 
+      int max = (a > b) ? a : b; 
+      System.out.println("=== Nilai Maksimum ==="); 
+      System.out.println("Bilangan a: " + a); 
+      System.out.println("Bilangan b: " + b); 
+      System.out.println("Nilai maksimum: " + max); 
+      System.out.println(); 
+      // Contoh 4: Inline dalam println 
+      int age = 17; 
+      System.out.println("=== Status Usia ==="); 
+      System.out.println("Usia: " + age); 
+      System.out.println("Status: " + ((age >= 18) ? "Dewasa" : 
+      "Belum Dewasa")); 
+    } 
 } 
