@@ -12,11 +12,11 @@ public class LatihanDiskon {
       System.out.println("Harga Akhir: Rp " + (totalBelanja - (totalBelanja * 0.05)));
       System.out.println("Anda Hemat: Rp " + totalBelanja * 0.05);
     } else if (totalBelanja >= 500000 && totalBelanja < 1000000) {
-      System.out.println("Diskon (5%): Rp " + totalBelanja * 0.1);
+      System.out.println("Diskon (10%): Rp " + totalBelanja * 0.1);
       System.out.println("Harga Akhir: Rp " + (totalBelanja - (totalBelanja * 0.1)));
       System.out.println("Anda Hemat: Rp " + totalBelanja * 0.1);
     } else {
-      System.out.println("Diskon (5%): Rp " + totalBelanja * 0.15);
+      System.out.println("Diskon (15%): Rp " + totalBelanja * 0.15);
       System.out.println("Harga Akhir: Rp " + (totalBelanja - (totalBelanja * 0.15)));
       System.out.println("Anda Hemat: Rp " + totalBelanja * 0.15);
     }
