@@ -9,7 +9,7 @@ public static void main(String[] args) {
 // Contoh 1: Hari dalam seminggu 
 int day = 3; 
 String dayName; 
- System.out.println("=== Nama Hari ==="); 
+ System.out.println("=== KONVERSI BULAN ==="); 
     System.out.println("Kode hari: " + day); 
         switch (day) { 
             case 1: 
@@ -32,6 +32,21 @@ String dayName;
                 break; 
             case 7: 
                 dayName = "Minggu"; 
+                break; 
+            case 8: 
+                dayName = "Senin"; 
+                break; 
+            case 9: 
+                dayName = "Selasa"; 
+                break; 
+            case 10: 
+                dayName = "Rabu"; 
+                break; 
+            case 11: 
+                dayName = "Kamis"; 
+                break; 
+            case 12: 
+                dayName = "Jumat"; 
                 break; 
             default: 
                 dayName = "Kode tidak valid"; 
