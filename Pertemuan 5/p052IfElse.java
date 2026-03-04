@@ -5,7 +5,6 @@
  * @author Rudy 
  */ 
 public class p052IfElse { 
-     
     public static void main(String[] args) { 
         // Contoh 1: If-Else sederhana 
         int score = 55; 
