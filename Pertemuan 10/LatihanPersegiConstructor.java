@@ -16,8 +16,8 @@ class Persegi {
 
   public void tampilkanHasil() {
     System.out.println("=== PERSEGI ===");
-    System.out.println("Sisi  : " + sisi + " cm");
-    System.out.println("Luas  : " + luas + " cm²");
+    System.out.println("Sisi    : " + sisi + " cm");
+    System.out.println("Luas    : " + luas + " cm²");
     System.out.println("Keliling: " + keliling + " cm");
     System.out.println();
   }
@@ -26,7 +26,7 @@ public class LatihanPersegiConstructor {
   public static void main(String[] args) {
     Persegi persegi1 = new Persegi(5);
     persegi1.tampilkanHasil();
-    
+
     Persegi persegi2 = new Persegi(-3);
     persegi2.tampilkanHasil();
   }
