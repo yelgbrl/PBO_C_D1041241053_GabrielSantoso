@@ -10,9 +10,9 @@ class Mobil {
   }
 
   public Mobil(String merk) {
-    this(); // Memanggil constructor tanpa parameter terlebih dahulu untuk menjadikan semua atribut menjadi nilai default
+    this();           // Memanggil constructor tanpa parameter terlebih dahulu untuk menjadikan semua atribut menjadi nilai default
     this.merk = merk; // Kemudian atribut merk ditentukan nilainya, sedangkan atribut yang lain tetap nilai default
-    // Tujuan saya untuk mempersingkat penulisan kode
+                      // Tujuan saya untuk mempersingkat penulisan kode
   }
 
   public Mobil(String merk, String warna, int tahun) {
