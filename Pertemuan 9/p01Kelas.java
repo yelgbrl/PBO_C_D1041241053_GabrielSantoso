@@ -17,19 +17,20 @@ class Calc {
 } 
  
 public class p01Kelas { 
-  public static void main(String args[]) { 
-    // Cara 1: Deklarasi dan instansiasi terpisah 
-    Calc obj;                // Deklarasi 
-    obj = new Calc();        // Instansiasi 
+    public static void main(String args[]) { 
+        Calc obj = new Calc(); 
          
-    // Cara 2: Deklarasi dan instansiasi dalam 1 baris 
-    Calc obj1 = new Calc(); 
+        // Mengisi atribut 
+        obj.num1 = 3; 
+        obj.num2 = 5; 
          
-    // Mengisi atribut object 
-    obj.num1 = 3; 
-    obj.num2 = 5; 
+        // Tampilkan result sebelum perhitungan 
+        System.out.println("Sebelum perform(): " + obj.result); 
          
-    // Menampilkan nilai result sebelum method dipanggil 
-    System.out.println(obj.result); 
-  } 
+        // Panggil method untuk melakukan perhitungan 
+        obj.perform(); 
+         
+        // Tampilkan result setelah perhitungan 
+        System.out.println("Setelah perform(): " + obj.result); 
+    } 
 }
